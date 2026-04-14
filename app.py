@@ -39,7 +39,7 @@ with st.sidebar:
     st.checkbox("1. Data Input", value=True, disabled=True)
     st.checkbox("2. Feature Scaling", value=True, disabled=True)
     st.checkbox("3. Model Prediction", value=False)
-    st.checkbox("4. Performance Metrics", value=False)
+    # st.checkbox("4. Performance Metrics", value=False)
 
 
 st.title("🌾 Crop Recommendation System")
@@ -82,10 +82,10 @@ with tabs[2]:
         st.success(f"### Predicted Crop: {prediction[0]}")
 
 
-with tabs[3]:
-    st.header("📊 Diagnostics")
-    st.write("Model Performance Metrics (Unit 1).")
+# with tabs[3]:
+#     st.header("📊 Diagnostics")
+#     st.write("Model Performance Metrics (Unit 1).")
 
-    st.image("confusion_matrix.png", caption="SVM Model Confusion Matrix")
+#     st.image("confusion_matrix.png", caption="SVM Model Confusion Matrix")
 
-    st.metric(label="Model Accuracy", value="98.2%")
+#     st.metric(label="Model Accuracy", value="98.2%")
