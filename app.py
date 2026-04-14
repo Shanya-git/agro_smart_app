@@ -65,7 +65,7 @@ with tabs[0]:
 
 with tabs[1]:
     st.header("⚙️ Feature Scaling")
-    st.info("Using StandardScaler to normalize features (Unit 1 Topic).")
+    st.info("Using StandardScaler to normalize features ")
     st.write("This ensures features like Rainfall (0-300) don't overpower pH (0-14).")
 
 with tabs[2]:
