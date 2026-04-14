@@ -45,7 +45,7 @@ with st.sidebar:
 st.title("🌾 Crop Recommendation System")
 st.markdown("ML-powered agricultural pipeline for soil assessment.")
 
-tabs = st.tabs(["1. Input Data", "2. Scaler Info", "3. Prediction", "4. Metrics"])
+tabs = st.tabs(["1. Input Data", "2. Scaler Info", "3. Prediction"])
 
 with tabs[0]:
     st.header("5️⃣ Data Entry")
